@@ -1,0 +1,203 @@
+.wrap{
+    width: 543px;
+    height: 336px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -271px;
+    margin-top: -168px;
+    .left{
+
+        width: 343px;
+        height: 336px;
+        background-color: white;
+        border-right: 1px dashed #dddddd;
+        .leftIn{
+            box-sizing: border-box;
+            margin-left: 29px;
+            position: relative;
+            width: 284px;
+            height: 336px;
+            background-color: white;
+            padding-top: 22px;
+            .imgContainer{
+                width: 119px;
+                height: 26px;
+                background: url('../images/lay.png') no-repeat 0 -3px;    
+            }
+            .correct{
+                position: absolute;
+                top: 52px;
+                color: red;
+                font-size: 12px;
+                
+            }
+            .same{
+                box-sizing: border-box;
+                display: block;
+                width: 284px;
+                height: 32px;
+                border: 1px solid #dddddd;
+            }
+            .sameSecond{
+                margin-top: 10px;
+                float: left;
+                box-sizing: border-box;
+                display: block;
+                width: 142px;
+                height: 32px;
+                border: 1px solid #dddddd;
+            }
+            .changePic{
+                margin-top: 10px;
+                float: right;
+                width: 120px;
+                height: 32px;
+             
+                img{
+                    height: 32px;
+                    vertical-align: bottom;
+                }
+                .otherPic{
+                    display: inline-block;
+                    font-size: 12px;
+                    color: #999999;
+                    height: 32px;
+                    line-height: 32px;
+                    margin-left: 15px;
+                    &:hover{
+                        color: #1a9eff;
+                    }
+                }
+                
+            }
+            .getMessage{
+                display: block;
+                margin-top: 10px;
+                float: right;
+                width: 120px;
+                height: 32px;
+                box-sizing: border-box;
+                border: 1px solid #dddddd;
+                background-color: #f7f7f7;
+                color: #333333;
+                text-align: center;
+                line-height: 30px;
+                &:hover{
+                    color: #1a9eff;
+                }
+            }
+            .agree{
+                vertical-align: middle;
+                margin-right: 5px;
+            }
+            .agreement{
+                color: #1a9eff;
+                font-size: 12px;
+            }
+            .user{
+                background: url('../images/lay.png') no-repeat 0 -40px; 
+                margin-top: 29px;
+                text-indent: 31px;
+            }
+            .password{
+                background: url('../images/lay.png') no-repeat 0 -70px; 
+                margin-top: 10px;
+                text-indent: 32px;
+            }
+           
+            .loginBtn{
+                width: 284px;
+                height: 38px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                background-color: #1a9eff;
+                border: none;
+                color: #fff;
+                font-size: 16px;
+                letter-spacing: 4px;
+                &:hover{
+                    cursor: pointer;
+                    background-color: #69bfff;
+                }
+            }
+        }
+    }
+    .right{
+        width: 199px;
+        background-color: #fff;
+       .rightIn{
+           margin-left: 30px;
+           width: 143px;
+           height: 336px;
+           background-color: #fff;
+           position: relative;
+            .close{
+               display: block;
+               position: absolute;
+               right: 0;
+               top: 10px;
+            }
+           p{
+
+                padding-top: 76px;
+                color: #999999;
+            }
+            .link{
+               display: block;
+               width: 140px;
+               height: 30px;
+               background-color: #5bb4f5;
+               margin-top: 12px;
+               color: #fff;
+             
+               img{
+                   margin-left: 15px;
+                   margin-right: 15px;
+                   margin-top: 3px;
+                   vertical-align: bottom;
+               }
+           }
+           .wechat{
+            background-color: #8dc91b;
+           }
+           .weblog{
+               background-color: #e4565d;
+               margin-bottom: 25px;
+           }
+           .count{
+               font-size: 13px;
+           }
+           .register{
+                color: #1a9eff;
+                font-size: 14px;
+                white-space: nowrap;
+           }
+           .help{
+               margin-top: 24px;
+               float: right;
+               font-size: 13px;
+              
+               height: 14px;
+               line-height: 14px;
+               vertical-align: bottom;
+               a{
+                color: #cccccc;
+                .helpIcon{
+                    display: inline-block;
+                    margin-right: 5px;
+                    width: 14px;
+                    height: 14px;
+                    background: url('../images/help.png') no-repeat
+                }
+               }
+               
+           }
+       }
+    }
+}
+
+
+body{
+    background-color: rgba(0, 0, 0, 0.2);
+}

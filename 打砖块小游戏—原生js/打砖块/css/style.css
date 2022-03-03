@@ -1,0 +1,22 @@
+body{
+	overflow: hidden;
+}
+canvas{
+  display: block;
+  margin: 20px auto;
+  border: 1px solid black;
+  background: #d2b3b3;
+}
+div{
+	font-size: 20px;
+  text-align: center;
+}
+span1{
+  color: greenyellow;
+}
+span2{
+  color: yellow;
+}
+span3{
+  color: rgb(247, 85, 85);
+}

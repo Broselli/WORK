@@ -1,0 +1,143 @@
+.wrap {
+  width: 543px;
+  height: 336px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -271px;
+  margin-top: -168px;
+}
+.wrap .left {
+  width: 343px;
+  height: 336px;
+  background-color: white;
+  border-right: 1px solid #dddddd;
+}
+.wrap .left .leftIn {
+  box-sizing: border-box;
+  margin-left: 29px;
+  width: 284px;
+  height: 336px;
+  background-color: white;
+  padding-top: 22px;
+}
+.wrap .left .leftIn .imgContainer {
+  width: 119px;
+  height: 26px;
+  background: url('../images/lay.png') no-repeat 0 -3px;
+}
+.wrap .left .leftIn .same {
+  box-sizing: border-box;
+  display: block;
+  width: 284px;
+  height: 32px;
+  border: 1px solid #dddddd;
+}
+.wrap .left .leftIn .user {
+  background: url('../images/lay.png') no-repeat 0 -40px;
+  margin-top: 29px;
+  text-indent: 31px;
+}
+.wrap .left .leftIn .password {
+  background: url('../images/lay.png') no-repeat 0 -70px;
+  margin-top: 10px;
+  text-indent: 32px;
+}
+.wrap .left .leftIn .auto {
+  font-size: 12px;
+  color: #999999;
+  margin-top: 12px;
+  width: 284px;
+  height: 13px;
+  line-height: 13px;
+}
+.wrap .left .leftIn .auto a {
+  font-size: 12px;
+  color: #1a9eff;
+  margin-left: 127px;
+}
+.wrap .left .leftIn .automatic {
+  vertical-align: bottom;
+  margin-right: 5px;
+}
+.wrap .left .leftIn .loginBtn {
+  width: 284px;
+  height: 38px;
+  margin-top: 27px;
+  background-color: #1a9eff;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+.wrap .right {
+  width: 199px;
+  background-color: #fff;
+}
+.wrap .right .rightIn {
+  margin-left: 30px;
+  width: 143px;
+  height: 336px;
+  background-color: #fff;
+  position: relative;
+}
+.wrap .right .rightIn .close {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.wrap .right .rightIn p {
+  padding-top: 76px;
+  color: #999999;
+}
+.wrap .right .rightIn .link {
+  display: block;
+  width: 140px;
+  height: 30px;
+  background-color: #5bb4f5;
+  margin-top: 12px;
+  color: #fff;
+}
+.wrap .right .rightIn .link img {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 3px;
+  vertical-align: bottom;
+}
+.wrap .right .rightIn .wechat {
+  background-color: #8dc91b;
+}
+.wrap .right .rightIn .weblog {
+  background-color: #e4565d;
+  margin-bottom: 25px;
+}
+.wrap .right .rightIn .count {
+  font-size: 13px;
+}
+.wrap .right .rightIn .register {
+  color: #1a9eff;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.wrap .right .rightIn .help {
+  margin-top: 24px;
+  float: right;
+  font-size: 13px;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: bottom;
+}
+.wrap .right .rightIn .help a {
+  color: #cccccc;
+}
+.wrap .right .rightIn .help a .helpIcon {
+  display: inline-block;
+  margin-right: 5px;
+  width: 14px;
+  height: 14px;
+  background: url('../images/help.png') no-repeat;
+}
+body {
+  background-color: #ccc;
+}

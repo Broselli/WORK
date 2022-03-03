@@ -1,0 +1,194 @@
+/* 版心样式 */
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*顶部*/
+.left{
+    width: 1000px;
+    height: 36px;
+    margin: 25px 0 28px 0;
+}
+.left img{
+    vertical-align: top;
+}
+.left span{
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #1fa0ff;
+}
+/*主体内容*/
+.wrap{
+    width: 100%;
+    height: 542px;
+    background: url('../images/2.jpg') no-repeat center top #46a4e9;
+}
+.box{
+    width: 1000px;
+    background: url('../images/10.jpg') no-repeat center left;
+}
+.right{
+    width: 332px;
+    height: 446px;
+    margin: 53px 40px 0 0;
+    background: #fff;
+}
+.right .logo{
+    width: 284px;
+    height: 19px;
+    margin: 22px 24px;
+}
+.right .logo img{
+    vertical-align: top;
+}
+.right .logo span{
+    line-height: 19px;
+    font-size: 14px;
+    color: #1a9eff;
+}
+.item{
+    position: relative;
+}
+.item input{
+    width: 268px;
+    border: none;
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+.item .user{
+    margin: 19px 24px 10px;
+    text-indent: 23px;
+}
+.item .userIcon{
+    display: inline-block;
+    position: absolute;
+    left: 33px;
+    top: 27px;
+    width: 15px;
+    height: 17px;
+    background: url('../images/154.png') no-repeat -97px -37px;
+}
+.item .passIcon{
+    display: inline-block;
+    position: absolute;
+    left: 33px;
+    top: 70px;
+    width: 15px;
+    height: 17px;
+    background: url('../images/154.png') no-repeat -37px -36px;
+}
+.item .userReset{
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 27px;
+    width: 16px;
+    height: 16px;
+    background: url('../images/154.png') no-repeat -142px -358px;
+    cursor: pointer;
+    display: none;
+}
+.item .paw{
+    margin: 0 24px;
+    text-indent: 23px;
+
+}
+.item .passReset{
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 70px;
+    width: 16px;
+    height: 16px;
+    background: url('../images/154.png') no-repeat -142px -358px;
+    cursor: pointer;
+    display: none;
+}
+.item .jiZhuWo{
+    margin: 10px 24px;
+    line-height: 14px;
+}
+.item .jiZhuWo .checkIcon{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url('../images/154.png') no-repeat 0 -66px;
+    cursor: pointer;
+    vertical-align: top;
+}
+.item .jiZhuWo input{
+    vertical-align: top;
+    width: 12px;
+    height: 12px;
+    display: none;
+}
+.item .jiZhuWo span{
+    color: #999999;
+}
+.item .jiZhuWo a{
+    color: #1a9eff;
+}
+.item .jiZhuWo .one{
+    margin-left: 119px;
+}
+.item .submit{
+    width: 284px;
+    height: 38px;
+    padding: 0;
+    margin: 0 24px;
+    border: none;
+    color: #fff;
+    background: #1a9eff;
+    cursor: pointer;
+}
+.item .wenTi{
+    width: 284px;
+    height: 34px;
+    line-height: 34px;
+    margin: 0 24px;
+}
+.item .wenTi img{
+    vertical-align: middle;
+}
+.item .wenTi span{
+    color: #999999;
+}
+.item .wenTi a{
+    margin-left: 121px;
+    color: #1a9eff;
+}
+.item .button{
+    position: relative;
+    width: 238px;
+    height: 69px;
+    margin: 114px 47px 0;
+    border-top: 1px solid #e1e1e1;
+}
+.item .button h5{
+    position: absolute;
+    top: -9px;
+    left: 78px;
+    width: 82px;
+    font-weight: normal;
+    text-align: center;
+    color: #999999;
+    background: #fff;
+}
+.item .button img{
+    margin: 18px 10px;
+    cursor: pointer;
+}
+.item .button .one{
+    margin-left: 54px;
+}
+/*底部*/
+.footer{
+    font-size: 12px;
+    text-align: center;
+    color: #999999;
+    padding: 20px 0 34px;
+}
+.footer p{
+    line-height: 24px;
+}

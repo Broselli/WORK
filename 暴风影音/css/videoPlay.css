@@ -1,0 +1,903 @@
+/* 顶部导航栏 */
+header {
+  width: 100%;
+  height: 55px;
+  background-color: #242428;
+}
+header .headLeft {
+  padding-top: 14px;
+}
+header .headLeft .logo {
+  width: 120px;
+  height: 40px;
+  float: left;
+}
+header .headLeft .logo a {
+  display: block;
+  width: 119px;
+  height: 29px;
+  background: url('../images/playicons.png') no-repeat -181px -124px;
+}
+header .headLeft .headNav {
+  width: 218px;
+  height: 40px;
+  float: left;
+}
+header .headLeft .headNav .a-index {
+  width: 64px;
+  display: inline-block;
+  font-size: 14px;
+  color: #989898;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+}
+header .headLeft .headNav .a-guide {
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+  font-size: 14px;
+  color: #989898;
+  display: inline-block;
+  padding-right: 24px;
+  background: url('../images/indexicons.png') no-repeat -306px -554px;
+}
+header .headLeft .headSearch {
+  height: 30px;
+  float: left;
+  position: relative;
+}
+header .headLeft .headSearch .search-bar {
+  width: 381px;
+  height: 30px;
+  line-height: 30px;
+  text-indent: 20px;
+  color: #989898;
+  font-size: 12px;
+  float: left;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #383a42;
+}
+header .headLeft .headSearch .search-btn {
+  width: 87px;
+  height: 30px;
+  line-height: 40px;
+  background: url('../images/playicons.png') no-repeat -115px -40px;
+  cursor: pointer;
+  text-align: center;
+  float: left;
+  border: none;
+  background-color: transparent;
+}
+header .headRight {
+  position: relative;
+  width: 300px;
+  height: 40px;
+  float: right;
+}
+header .headRight .rightNav .navList {
+  float: left;
+  margin-left: 30px;
+}
+header .headRight .rightNav .navList:nth-of-type(2) div {
+  background-position: -172px 0;
+}
+header .headRight .rightNav .navList:nth-of-type(3) div {
+  margin-left: 12px;
+  background-position: -228px 0;
+}
+header .headRight .rightNav .navList:nth-of-type(4) div {
+  margin-left: 20px;
+  background-position: -282px 0;
+}
+header .headRight .rightNav .navList .littleIcon {
+  margin-left: 3px;
+  width: 20px;
+  height: 20px;
+  background: url('../images/playicons.png') no-repeat -116px 0;
+}
+header .headRight .rightNav .navList .navText {
+  color: #989898;
+}
+header .headRight .rightNav .navList .navSpecial {
+  font-size: 12px;
+  color: #989898;
+}
+/* 播放部分 */
+.playBox {
+  background-color: #383a42;
+}
+.playBox .movieName {
+  font-size: 16px;
+  color: #ffffff;
+  padding: 6px 0;
+}
+.playBox .linkBox {
+  color: #989898;
+}
+.playBox .linkBox:nth-of-type(1) a {
+  margin-left: 0px;
+}
+.playBox .linkBox .address,
+.playBox .linkBox .addMovieName {
+  display: inline-block;
+  font-size: 14px;
+  color: #989898;
+  padding-bottom: 8px;
+  margin-left: 14px;
+}
+.playBox .linkBox .address:hover {
+  color: #009cff;
+}
+.playBox .linkBox .addList {
+  display: inline-block;
+  font-size: 14px;
+  color: #989898;
+  padding-bottom: 8px;
+}
+.playBox .linkBox .addList:hover {
+  color: #009cff;
+}
+.playBox .main {
+  width: 100%;
+  height: 570px;
+  background-color: #383a42;
+  padding-bottom: 21px;
+  /* 选集 商品 */
+}
+.playBox .main .mainLeft {
+  height: 100%;
+  width: 860px;
+  background-color: pink;
+}
+.playBox .main .mainLeft .leftTop {
+  width: 100%;
+  height: 525px;
+  background-color: #ccc;
+}
+.playBox .main .mainLeft .leftBottom {
+  width: 100%;
+  height: 45px;
+  background-color: #242428;
+}
+.playBox .main .mainLeft .leftBottom .controlLeft {
+  padding-top: 15px;
+  float: left;
+  width: 300px;
+}
+.playBox .main .mainLeft .leftBottom .controlLeft .controlItem {
+  height: 18px;
+  margin-left: 30px;
+  float: left;
+}
+.playBox .main .mainLeft .leftBottom .controlLeft .controlItem:nth-of-type(2) span {
+  background-position: 0 -34px;
+}
+.playBox .main .mainLeft .leftBottom .controlLeft .controlItem:nth-of-type(3) span {
+  background-position: 0 -70px;
+}
+.playBox .main .mainLeft .leftBottom .controlLeft .controlItem:nth-child(3):hover:nth-of-type(3) span {
+  background-position: 0 -342px;
+  color: #009cff;
+}
+.playBox .main .mainLeft .leftBottom .controlLeft .controlItem .itemIcon {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url('../images/playicons.png') no-repeat 0 0;
+  margin-right: 5px;
+}
+.playBox .main .mainLeft .leftBottom .controlLeft .controlItem .itemText {
+  display: inline-block;
+  font-size: 16px;
+  color: #989898;
+  line-height: 18px;
+  height: 18px;
+  vertical-align: top;
+}
+.playBox .main .mainLeft .leftBottom .controlRight {
+  padding-top: 15px;
+  float: right;
+  width: 270px;
+  height: 30px;
+}
+.playBox .main .mainLeft .leftBottom .controlRight .controlItem {
+  height: 18px;
+  margin-left: 30px;
+  float: left;
+}
+.playBox .main .mainLeft .leftBottom .controlRight .controlItem:nth-of-type(1) span {
+  background-position: 0 -159px;
+}
+.playBox .main .mainLeft .leftBottom .controlRight .controlItem:nth-of-type(2) span {
+  background-position: 0 -231px;
+}
+.playBox .main .mainLeft .leftBottom .controlRight .controlItem:nth-of-type(3) span {
+  background-position: 0 -198px;
+}
+.playBox .main .mainLeft .leftBottom .controlRight .controlItem:nth-child(1):hover:nth-of-type(1) span {
+  background-position: 0 -431px;
+  color: #009cff;
+}
+.playBox .main .mainLeft .leftBottom .controlRight .controlItem:nth-child(2):hover:nth-of-type(2) span {
+  background-position: 0 -503px;
+  color: #009cff;
+}
+.playBox .main .mainLeft .leftBottom .controlRight .controlItem:nth-child(3):hover:nth-of-type(3) span {
+  background-position: 0 -470px;
+  color: #009cff;
+}
+.playBox .main .mainLeft .leftBottom .controlRight .controlItem .itemIcon {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background: url('../images/playicons.png') no-repeat 0 0;
+  margin-right: 5px;
+}
+.playBox .main .mainLeft .leftBottom .controlRight .controlItem .itemText {
+  display: inline-block;
+  font-size: 16px;
+  color: #989898;
+  line-height: 18px;
+  height: 18px;
+  vertical-align: top;
+}
+.playBox .main .rightBottom {
+  width: 320px;
+  height: 45px;
+}
+.playBox .main .rightBottom .download {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: url('../images/play_download.png') no-repeat;
+}
+.playBox .main .rightBottom .download:hover {
+  background-position: 0 -54px;
+}
+.playBox .main .select_vi {
+  width: 320px;
+  height: 525px;
+  background: #242428;
+}
+.playBox .main .select_vi .seleTab li {
+  float: left;
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid #3a3a3e;
+  background: #242428;
+}
+.playBox .main .select_vi .seleTab li:hover {
+  border-bottom-color: #1a9eff;
+}
+.playBox .main .select_vi .seleTab li:hover a {
+  color: #1a9eff;
+}
+.playBox .main .select_vi .seleTab li a {
+  color: #fff;
+}
+.playBox .main .select_vi .seleTab .default {
+  border-bottom-color: #1a9eff;
+}
+.playBox .main .select_vi .seleTab .default a {
+  color: #1a9eff;
+}
+.playBox .main .select_vi .seleTab .noColor {
+  border-bottom-color: #383a42;
+}
+.playBox .main .select_vi .seleTab .noColor a {
+  color: #fff;
+}
+.playBox .main .select_vi .moviesBox {
+  box-sizing: border-box;
+  width: 320px;
+  height: 474px;
+}
+.playBox .main .select_vi .moviesBox .mvBox_lWrap {
+  width: 304px;
+  height: 474px;
+  overflow: hidden;
+  position: relative;
+}
+.playBox .main .select_vi .moviesBox .mvBox_l {
+  box-sizing: border-box;
+  width: 304px;
+  padding: 20px 12px 50px 12px;
+  position: absolute;
+}
+.playBox .main .select_vi .moviesBox .mvBox_l p {
+  color: #fff;
+  font-size: 12px;
+  line-height: 30px;
+}
+.playBox .main .select_vi .moviesBox .mvBox_l .fromWhere {
+  text-align: right;
+  margin-bottom: 26px;
+}
+.playBox .main .select_vi .moviesBox .mvBox_l .goodRecoTit {
+  height: 14px;
+  line-height: 14px;
+  font-size: 14px;
+  padding-left: 6px;
+  border-left: 3px solid #1a9eff;
+  margin-bottom: 20px;
+}
+.playBox .main .select_vi .moviesBox .mvBox_l .goodReco {
+  border-top: 1px solid #383a42;
+}
+.playBox .main .select_vi .moviesBox .mvBox_l .goodReco li {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #383a42;
+}
+.playBox .main .select_vi .moviesBox .mvBox_l .goodReco li a {
+  font-size: 12px;
+  color: #989898;
+}
+.playBox .main .select_vi .moviesBox .mvBox_l .goodReco li a span {
+  color: #989898;
+  font-size: 12px;
+}
+.playBox .main .select_vi .moviesBox .mvBox_l .goodReco li a i {
+  margin-top: 16px;
+  width: 16px;
+  height: 16px;
+  background: url('../images/playicons.png') no-repeat -284px -80px;
+}
+.playBox .main .select_vi .moviesBox .mvBox_l .goodReco li:hover {
+  color: #1a9eff;
+}
+.playBox .main .select_vi .moviesBox .mvBox_l .goodReco li:hover span {
+  color: #1a9eff;
+}
+.playBox .main .select_vi .moviesBox .mvBox_l .goodReco li:hover .playIcon {
+  background-position-x: -204px;
+}
+.playBox .main .select_vi .moviesBox .sliderWrap {
+  width: 10px;
+  height: 474px;
+  background: #2b2c31;
+  padding: 0 3px;
+  position: relative;
+}
+.playBox .main .select_vi .moviesBox .sliderWrap .sliderBox {
+  width: 10px;
+  height: 52px;
+  border-radius: 4px;
+  background: #3d4047;
+  position: absolute;
+  cursor: pointer;
+}
+/* 播放部分之下的部分  */
+.underPlay {
+  background-color: #fff;
+  /* 左边 */
+  /* 右边 */
+  /* 页尾广告 */
+}
+.underPlay .underLeftBox {
+  width: 780px;
+  padding-top: 30px;
+  /* 广告js */
+  /* 电影列表js */
+}
+.underPlay .underLeftBox .advertisingBox {
+  width: 728px;
+  height: 90px;
+  margin-left: 26px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.underPlay .underLeftBox .advertisingBox .adverUl .adverLi {
+  float: left;
+  margin-right: 25px;
+  height: 88px;
+  width: 120px;
+  border: 1px solid #dddddd;
+}
+.underPlay .underLeftBox .advertisingBox .adverUl .adverLi:nth-child(5) {
+  margin-right: 0;
+}
+.underPlay .underLeftBox .advertisingBox .adverUl .adverLi:hover img {
+  transform: scale(1.2);
+}
+.underPlay .underLeftBox .advertisingBox .adverUl .adverLi:hover .adverCon {
+  color: #333;
+  font-weight: bold;
+}
+.underPlay .underLeftBox .advertisingBox .adverUl .adverLi .adverPic {
+  overflow: hidden;
+}
+.underPlay .underLeftBox .advertisingBox .adverUl .adverLi .adverPic img {
+  vertical-align: top;
+  width: 120px;
+  height: 70px;
+  transition: 1s;
+}
+.underPlay .underLeftBox .advertisingBox .adverUl .adverLi .adverCon {
+  width: 120px;
+  text-align: center;
+  color: #666;
+  transition: 0.5s;
+}
+.underPlay .underLeftBox .advertisingBox .adver {
+  position: absolute;
+  right: 13px;
+  bottom: 2px;
+  width: 31px;
+  height: 12px;
+  background: url('../images/adverClose.png') no-repeat;
+  background-size: contain;
+  background-color: rgba(102, 102, 102, 0.6);
+}
+.underPlay .underLeftBox .advertisingBox .closeAdv {
+  position: absolute;
+  bottom: 2px;
+  right: 0px;
+  width: 13px;
+  height: 12px;
+  background: url('../images/colsepic_03.jpg') no-repeat;
+  cursor: pointer;
+}
+.underPlay .underLeftBox .advertisingBox .close {
+  display: none;
+}
+.underPlay .underLeftBox .guess li {
+  position: relative;
+  width: 180px;
+  height: 300px;
+  float: left;
+  margin-right: 20px;
+}
+.underPlay .underLeftBox .guess li:hover .enshrine {
+  display: block;
+  background-position: -290px -370px;
+}
+.underPlay .underLeftBox .guess li:hover .enshrine:hover {
+  background-position: -254px -370px;
+}
+.underPlay .underLeftBox .guess li:nth-child(4n) {
+  margin-right: 0px;
+}
+.underPlay .underLeftBox .guess li img {
+  width: 180px;
+  height: 240px;
+}
+.underPlay .underLeftBox .guess li .enshrine {
+  position: absolute;
+  bottom: 67px;
+  left: 8px;
+  display: inline-block;
+  width: 15px;
+  height: 11px;
+  background: url('../images/indexicons.png') no-repeat -290px -370px;
+  display: none;
+  cursor: pointer;
+}
+.underPlay .underLeftBox .guess li .movieInfo {
+  width: 180px;
+  height: 50px;
+  position: relative;
+}
+.underPlay .underLeftBox .promoteAndMovieTop .promoteBox {
+  width: 580px;
+  height: 500px;
+  margin-top: 150px;
+}
+.underPlay .underLeftBox .promoteAndMovieTop .promoteBox .promoteItem {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.underPlay .underLeftBox .promoteAndMovieTop .promoteBox .promoteItem:nth-child(3n) {
+  margin-right: 0px;
+}
+.underPlay .underLeftBox .promoteAndMovieTop .promoteBox .promoteItem .itemPic {
+  display: block;
+  width: 180px;
+  height: 135px;
+  position: relative;
+}
+.underPlay .underLeftBox .promoteAndMovieTop .promoteBox .promoteItem .itemPic img {
+  width: 180px;
+  height: 135px;
+}
+.underPlay .underLeftBox .promoteAndMovieTop .promoteBox .promoteItem .itemPic .promoteName {
+  font-size: 12px;
+  color: #fff;
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+}
+.underPlay .underLeftBox .promoteAndMovieTop .movieTopBox {
+  float: right;
+  width: 180px;
+  height: 300px;
+  margin-top: 150px;
+}
+.underPlay .underLeftBox .promoteAndMovieTop .movieTopBox .movieTopItem {
+  position: relative;
+}
+.underPlay .underLeftBox .promoteAndMovieTop .movieTopBox .movieTopItem .boxBefore {
+  width: 180px;
+  height: 23px;
+  padding-top: 10px;
+  background-color: #fff;
+}
+.underPlay .underLeftBox .promoteAndMovieTop .movieTopBox .movieTopItem .boxBefore .befNum {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+  background-color: #989898;
+  font-size: 12px;
+  color: #fff;
+  line-height: 14px;
+  text-align: center;
+}
+.underPlay .underLeftBox .promoteAndMovieTop .movieTopBox .movieTopItem .boxBefore .befText {
+  font-size: 14px;
+  color: #000;
+}
+.underPlay .underLeftBox .promoteAndMovieTop .movieTopBox .movieTopItem .boxBefore .befScore {
+  font-size: 14px;
+  color: #fc4413;
+}
+.underPlay .underLeftBox .promoteAndMovieTop .movieTopBox .movieTopItem .boxAfter {
+  display: none;
+}
+.underPlay .underLeftBox .promoteAndMovieTop .movieTopBox .movieTopItem .boxAfter .shadow {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 180px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.underPlay .underLeftBox .promoteAndMovieTop .movieTopBox .movieTopItem .boxAfter .blueCircle {
+  display: inline-block;
+  position: absolute;
+  bottom: 7px;
+  left: 10px;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: #1a9eff;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+.underPlay .underLeftBox .promoteAndMovieTop .movieTopBox .movieTopItem .boxAfter .movieTopName {
+  position: absolute;
+  bottom: 7px;
+  left: 30px;
+  font-size: 14px;
+  color: #fff;
+}
+.underPlay .underRightBox {
+  padding-top: 30px;
+  margin-left: 20px;
+  width: 380px;
+  height: 400px;
+  /* 评论列表 */
+  /* 评论页跳转 */
+}
+.underPlay .underRightBox .littleBanner {
+  margin-bottom: 50px;
+}
+.underPlay .underRightBox .discuss {
+  width: 380px;
+  height: 124px;
+  border-radius: 3px;
+  resize: none;
+  box-sizing: border-box;
+  outline: none;
+}
+.underPlay .underRightBox .sendDiscuss {
+  display: block;
+  width: 82px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #1a9eff;
+  color: #fff;
+  text-align: center;
+  float: right;
+  border-radius: 2px;
+}
+.underPlay .underRightBox .bind {
+  width: 380px;
+  font-size: 12px;
+  color: #7d7d7d;
+  float: right;
+  text-align: right;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.underPlay .underRightBox .bind .toLogin {
+  color: #1a9eff;
+  font-size: 12px;
+  text-decoration: underline;
+}
+.underPlay .underRightBox .discussBox .discussNavBox {
+  width: 380px;
+  height: 35px;
+  background-color: #fff;
+  background: url('../images/grayLine_03.jpg') repeat-x;
+}
+.underPlay .underRightBox .discussBox .discussNavBox .discussItem {
+  width: 78px;
+  height: 35px;
+  border-bottom: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+  float: left;
+}
+.underPlay .underRightBox .discussBox .discussNavBox .discussItem:hover {
+  color: #1a9eff;
+  border-bottom: 1px solid #1a9eff;
+}
+.underPlay .underRightBox .discussBox .discussNavBox .discussDefault {
+  color: #1a9eff;
+  border-bottom: 1px solid #1a9eff;
+}
+.underPlay .underRightBox .discussBox .discussListBox .listItem {
+  margin-top: 15px;
+  width: 380px;
+  border-bottom: 1px solid #b6b6b6;
+}
+.underPlay .underRightBox .discussBox .discussListBox .listItem:hover .likeNum .inform {
+  visibility: visible;
+}
+.underPlay .underRightBox .discussBox .discussListBox .listItem .userPic {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.underPlay .underRightBox .discussBox .discussListBox .listItem .userPic img {
+  width: 32px;
+  height: 32px;
+}
+.underPlay .underRightBox .discussBox .discussListBox .listItem .userInfo {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.underPlay .underRightBox .discussBox .discussListBox .listItem .userInfo .userName {
+  font-size: 14px;
+}
+.underPlay .underRightBox .discussBox .discussListBox .listItem .userInfo .sendTime {
+  font-size: 12px;
+  color: #989898;
+}
+.underPlay .underRightBox .discussBox .discussListBox .listItem .discussContent {
+  width: 380px;
+  color: #5e5e5e;
+}
+.underPlay .underRightBox .discussBox .discussListBox .listItem .likeNum {
+  width: 80px;
+  height: 15px;
+  margin-bottom: 17px;
+  float: right;
+}
+.underPlay .underRightBox .discussBox .discussListBox .listItem .likeNum .inform {
+  font-size: 12px;
+  visibility: hidden;
+}
+.underPlay .underRightBox .discussBox .discussListBox .listItem .likeNum .tap {
+  display: inline-block;
+  margin-right: 3px;
+  margin-left: 2px;
+  width: 15px;
+  height: 15px;
+  background: url('../images/playicons.png') no-repeat -285px -187px;
+}
+.underPlay .underRightBox .discussBox .discussListBox .listItem .likeNum .tapNum {
+  font-size: 12px;
+  color: #d8d8d8;
+}
+.underPlay .underRightBox .jump {
+  width: 380px;
+  margin-top: 20px;
+}
+.underPlay .underRightBox .jump .jumpLeft {
+  font-size: 14px;
+}
+.underPlay .underRightBox .jump .jumpLeft .toPage {
+  width: 30px;
+  height: 20px;
+  margin-right: 4px;
+  text-align: center;
+  font-size: 14px;
+  box-sizing: border-box;
+  border: 1px solid #d8d8d8;
+}
+.underPlay .underRightBox .jump .jumpLeft .allPage {
+  font-size: 12px;
+}
+.underPlay .underRightBox .jump .jumpLeft .doJump {
+  width: 60px;
+  height: 20px;
+  box-sizing: border-box;
+  border: 1px solid #d8d8d8;
+  background-color: #fff;
+  font-size: 12px;
+  margin-left: 20px;
+  color: #747474;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.underPlay .underRightBox .jump .jumpLeft .doJump:hover {
+  color: #1a9eff;
+  border: 1px solid #1a9eff;
+}
+.underPlay .underRightBox .jump .jumpRight .prevPage,
+.underPlay .underRightBox .jump .jumpRight .nextPage {
+  width: 60px;
+  height: 20px;
+  box-sizing: border-box;
+  border: 1px solid #d8d8d8;
+  background-color: #fff;
+  font-size: 12px;
+  margin-left: 20px;
+  color: #747474;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.underPlay .underRightBox .jump .jumpRight .prevPage:hover,
+.underPlay .underRightBox .jump .jumpRight .nextPage:hover {
+  color: #1a9eff;
+  border: 1px solid #1a9eff;
+}
+.underPlay .underRightBox .jump .jumpRight .nomore {
+  width: 60px;
+  height: 20px;
+  box-sizing: border-box;
+  border: 1px solid #d8d8d8;
+  background-color: #fff;
+  font-size: 12px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 2px;
+  color: #dadada;
+}
+.underPlay .underRightBox .jump .jumpRight .nomore:hover {
+  cursor: default;
+  color: #dadada;
+  border: 1px solid #d8d8d8;
+}
+.underPlay .lastAdvertisingBox {
+  height: 120px;
+  padding-top: 50px;
+}
+.underPlay .lastAdvertisingBox .lastAdvertising {
+  width: 960px;
+  height: 90px;
+  margin-left: 110px;
+  position: relative;
+}
+.underPlay .lastAdvertisingBox .lastAdvertising .lastAdvUl .lastAdvLi {
+  height: 29px;
+  margin-right: 3px;
+  margin-bottom: 1px;
+  background-color: #dfe4f9;
+  padding-top: 1px;
+  padding-left: 1px;
+  padding-right: 1px;
+  box-sizing: border-box;
+}
+.underPlay .lastAdvertisingBox .lastAdvertising .lastAdvUl .lastAdvLi .advContent {
+  display: block;
+  box-sizing: border-box;
+  height: 27px;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+.underPlay .lastAdvertisingBox .lastAdvertising .lastAdvUl .lastAdvLi .advContent:hover {
+  font-weight: bold;
+  color: #000;
+  background-color: #fff;
+}
+.underPlay .lastAdvertisingBox .lastAdvertising .adver {
+  position: absolute;
+  right: 13px;
+  bottom: 2px;
+  width: 31px;
+  height: 12px;
+  background: url('../images/adverClose.png') no-repeat;
+  background-size: contain;
+  background-color: rgba(102, 102, 102, 0.6);
+}
+.underPlay .lastAdvertisingBox .lastAdvertising .closeAdv {
+  position: absolute;
+  bottom: 2px;
+  right: 0px;
+  width: 13px;
+  height: 12px;
+  background: url('../images/colsepic_03.jpg') no-repeat;
+  cursor: pointer;
+}
+.underPlay .lastAdvertisingBox .lastAdvertising .close {
+  display: none;
+}
+/* 页尾 */
+.footerNav {
+  padding-top: 12px;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #1a9eff;
+}
+.footerNav p {
+  height: 30px;
+  line-height: 30px;
+  color: #989898;
+}
+.footerNav a {
+  padding: 0 6px;
+  color: #989898;
+}
+.footerNav a:hover {
+  text-decoration: underline;
+  color: #989898;
+}
+.footerNav img {
+  vertical-align: middle;
+}
+/* 公共样式 */
+.container {
+  width: 1180px;
+}
+h5 {
+  font-size: 26px;
+  color: #191919;
+  text-indent: 15px;
+  background: url('../images/indexicons.png') no-repeat -396px -199px;
+  font-weight: normal;
+  margin-bottom: 18px;
+}
+.itemPic {
+  display: block;
+  width: 180px;
+  height: 135px;
+  position: relative;
+}
+.itemPic img {
+  width: 180px;
+  height: 135px;
+}
+h4 {
+  font-size: 14px;
+  color: #000;
+  width: 168px;
+  height: 20px;
+  margin-top: 4px;
+  line-height: 20px;
+  font-weight: normal;
+}
+.movieInfo p {
+  font-size: 12px;
+  color: #999;
+  padding-top: 3px;
+}
+.movieInfo .score {
+  position: absolute;
+  bottom: 25px;
+  right: 0px;
+  color: #f60;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+  font-size: 14px;
+}

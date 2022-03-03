@@ -1,0 +1,134 @@
+/* 头部公共样式 */
+.wrap{
+    width: 100%;
+    border-top: 3px solid #1a9eff;
+    background: rgba(255,255,255,0);
+    position:fixed;
+    z-index: 3;
+}
+.navHeader{
+    height: 67px;
+    line-height: 67px;
+}
+/* logo样式 */
+.navHeader .logo{
+    display:inline-block;
+    width: 175px;
+    height: 40px;
+    margin-top: 14px;
+    background:url(../images/indexicons.png) left top;
+}
+/* 首页导航a标签样式 */
+.navHeader .a_index{
+    display: inline-block;
+    width: 72px;
+    height: 40px;
+    text-align:right;
+}
+.navHeader .nav{
+    display: inline-block;
+    width: 92px;
+    height: 40px;
+    padding-right: 24px;
+    text-align:right;
+}
+.navHeader .nav>span{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 6px;
+    vertical-align: middle;
+    background:url('../images/indexicons.png') no-repeat -386px -562px;
+}
+.navHeader .nav>span:hover{
+    background-position-y: -590px;
+}
+/* 搜索栏 */
+.navHeader input{
+    outline: none;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.navHeader .inp{
+    width: 378px;
+    height: 40px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-radius:5px 0 0 5px;
+    border: 2px solid #1a9eff;
+}
+.navHeader .search{
+    width: 87px;
+    height: 40px;
+    border-left: none;
+    border: 2px solid #1a9eff;
+    border-radius:0 5px 5px 0;
+    background: #1a9eff;
+    color: #fff;
+    box-sizing: border-box;
+}
+/* 顶部导航栏右边链接样式 */
+.navHeader .a_right{
+    margin-top: 13px;
+}
+.navHeader .a_right a{
+    width: 20px;
+    height: 24px;
+    padding-top: 24px;
+    margin: 0 12px;
+    text-align:center;
+}
+.navHeader .a_right a:hover{
+    color: #191919;
+}
+.navHeader .a_right .saw{
+    width: 20px;
+    height: 20px;
+    padding-top: 20px;
+    background:url('../images/indexicons.png') no-repeat 3px -158px;
+}
+.navHeader .a_right .collect{
+    width: 20px;
+    height: 20px;
+    padding-top: 16px;
+    background:url('../images/indexicons.png') no-repeat 3px -199px;
+}
+.navHeader .a_right .download{
+    width: 20px;
+    height: 20px;
+    padding-top: 20px;
+    background:url('../images/indexicons.png') no-repeat 10px -234px;
+}
+.navHeader .a_right .lr{
+    width: 20px;
+    height: 20px;
+    padding-top: 20px;
+    background:url('../images/indexicons.png') no-repeat -87px -234px;
+}
+
+
+
+/* 底部公共样式 */
+.footerNav{
+    padding-top: 12px;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #1a9eff;
+}
+.footerNav p{
+    height: 30px;
+    line-height: 30px;
+    color: #989898;
+}
+.footerNav a{
+    padding: 0 6px;
+    color: #989898;
+
+}
+.footerNav a:hover{
+    text-decoration:underline;
+    color: #989898;
+}
+.footerNav img{
+    vertical-align:middle;
+}

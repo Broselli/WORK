@@ -1,0 +1,58 @@
+/* 清除默认样式 */
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size:14px;
+    color: #191919;
+}
+/* 清除默认字体样式 */
+b,strong{
+    font-weight: normal;
+}
+i,em{
+    font-style: normal;
+}
+/* 清除a标签的默认样式 */
+a{
+    text-decoration: none;
+    color: #191919;
+}
+a:hover{
+    color: #1a9eff;
+}
+/* 页面主要字体样式 */
+body{
+    font:12px 微软雅黑;
+    color:#333;
+}
+/* 表单元素 */
+input{
+    outline: none;
+}
+/* 公共类 */
+/* 清除浮动 */
+.clearfix:after{
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom:1;
+}
+
+/* 浮动 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/* 版心样式 */
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}

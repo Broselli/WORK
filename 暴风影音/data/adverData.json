@@ -1,0 +1,22 @@
+[
+    {
+        "advPicSrc":"./images/adverPicData/aorianna.jpg",
+        "advContent":"BOM管理软件"
+    },
+    {
+        "advPicSrc":"./images/adverPicData/jinx.jpg",
+        "advContent":"国外服务器网站"
+    },
+    {
+        "advPicSrc":"./images/adverPicData/kate.jpg",
+        "advContent":"私人云服务器"
+    },
+    {
+        "advPicSrc":"./images/adverPicData/lux.jpg",
+        "advContent":"免费二级域名"
+    },
+    {
+        "advPicSrc":"./images/adverPicData/yasuo.jpg",
+        "advContent":"日语五十音"
+    }
+]

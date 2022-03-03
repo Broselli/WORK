@@ -1,0 +1,256 @@
+/* 版心样式 */
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*顶部*/
+.left{
+    width: 1000px;
+    height: 36px;
+    margin: 25px 0 28px 0;
+}
+.left img{
+    vertical-align: top;
+}
+.left span{
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #1fa0ff;
+}
+/*主体内容*/
+.wrap{
+    width: 100%;
+    height: 542px;
+    background: url(../images/2.jpg) no-repeat center top #46a4e9;
+}
+.box{
+    width: 1000px;
+    background: url(../images/10.jpg) no-repeat center left;
+}
+.right{
+    position: relative;
+    width: 332px;
+    height: 446px;
+    margin: 53px 40px 0 0;
+    background: #fff;
+}
+.right .logo{
+    width: 284px;
+    height: 19px;
+    margin: 22px 24px;
+}
+.right .logo img{
+    vertical-align: top;
+}
+.right .logo span{
+    line-height: 19px;
+    font-size: 14px;
+    color: #1a9eff;
+}
+.right #end{
+    position: absolute;
+    top: 54px;
+    left: 24px;
+    line-height: 28px;
+    font-size: 12px;
+    color: #fc4040;
+}
+.right #rank{
+    position: absolute;
+    top: 129px;
+    right: 34px;
+    width: 24px;
+    height: 24px;
+    background: url('../images/154.png') no-repeat;
+    background-position: -40px -70px;
+}
+
+.item .correct{
+    position: absolute;
+    left: 25px;
+    top: 60px;
+    font-size: 12px;
+    color: #fc4040;
+}
+.item .userReset{
+    display: inline-block;
+    position: absolute;
+    right: 37px;
+    top: 90px;
+    width: 16px;
+    height: 16px;
+    background: url('../images/154.png') no-repeat -142px -358px;
+    cursor: pointer;
+    display: none;
+}
+.item input{
+    width: 238px;
+    border: none;
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+.item .emOne,
+.item .emTwo,
+.item .emTherr,
+.item .emFour{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url(../images/154.png) no-repeat;
+    background-position-y: -30px;
+}
+.item .emOne{
+    top: 83px;
+    left: 25px;
+    background-position-x: 0;
+}
+.item .emTwo{
+    top: 126px;
+    left: 25px;
+    background-position-x: -30px;
+}
+.item .emTherr{
+    top: 169px;
+    left: 25px;
+    background-position-x: -60px;
+}
+.item .emFour{
+    top: 214px;
+    left: 25px;
+    background-position-x: -90px;
+}
+.item .user{
+    padding-left: 30px;
+    margin: 19px 24px 10px;
+}
+.item .paw{
+    margin: 0 24px 10px;
+    padding-left: 30px;
+}
+.item .yanZhengMa{
+    width: 94px;
+    height: 30px;
+    padding: 0 8px 0 30px;
+    margin: 0px 8px 0px 24px;
+    vertical-align: top;
+}
+.item .yanZhengMa1{
+    width: 74px;
+    height: 30px;
+    padding: 0 8px;
+    margin-right: 12px;
+    vertical-align: top;
+    font-weight: bolder;
+}
+.item .span1{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('../images/154.png') no-repeat -120px -30px;
+    border: 1px solid #dddddd;
+   
+}
+.item .span1:hover{
+    cursor: pointer;
+    background-position-x: -150px;
+}
+.item .duanXin{
+    width: 94px;
+    height: 30px;
+    padding: 0 8px 0 30px;
+    margin: 10px 8px 0 24px;
+}
+.item .huoQu{
+    width: 136px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #999999;
+    padding: 0;
+    background: #fff;
+}
+.item .jiZhuWo{
+    margin: 10px 24px;
+    line-height: 14px;
+}
+.item .jiZhuWo input{
+    vertical-align: top;
+    width: 12px;
+    height: 12px;
+    display: none;
+}
+.item .jiZhuWo .checkIcon{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url('../images/154.png') no-repeat 0 -66px;
+    cursor: pointer;
+    vertical-align: top;
+}
+.item .jiZhuWo span{
+    color: #999999;
+}
+.item .jiZhuWo a{
+    color: #1a9eff;
+}
+.item .jiZhuWo .two{
+    margin-left: 48px;
+   
+}
+.item .submit{
+    width: 284px;
+    height: 38px;
+    padding: 0;
+    margin: 0 24px;
+    border: none;
+    color: #fff;
+    background: #1a9eff;
+    cursor: pointer;
+}
+.item .wenTi{
+    width: 284px;
+    height: 34px;
+    line-height: 34px;
+    margin: 0 24px;
+}
+.item .wenTi img{
+    vertical-align: middle;
+}
+.item .wenTi a{
+    color: #999999;
+}
+.item .button{
+    position: relative;
+    width: 238px;
+    height: 69px;
+    margin: 28px 47px 0;
+    border-top: 1px solid #e1e1e1;
+}
+.item .button h5{
+    position: absolute;
+    top: -9px;
+    left: 78px;
+    width: 82px;
+    font-weight: normal;
+    text-align: center;
+    color: #999999;
+    background: #fff;
+}
+.item .button img{
+    margin: 18px 10px;
+    cursor: pointer;
+}
+.item .button .one{
+    margin-left: 54px;
+}
+/*底部*/
+.footer{
+    font-size: 12px;
+    text-align: center;
+    color: #999999;
+    padding: 20px 0 34px;
+}
+.footer p{
+    line-height: 24px;
+}
